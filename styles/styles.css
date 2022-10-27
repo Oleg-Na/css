@@ -24,6 +24,10 @@ ul {
     text-decoration: none;
 }
 
+.basement a {
+    text-decoration: none;
+}
+
 /* logo */
 
 .logo-head {
@@ -183,4 +187,35 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
+}
+
+/* Подвал */
+
+.basement {
+    background-color: var(--backround-dark);
+}
+
+.company-address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+
+.contact-list-foot {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--contact-color);
+}
+
+.contact-list-foot:hover,
+.contact-list-foot:focus {
+    color: var(--accent-color);
 }
