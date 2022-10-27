@@ -49,3 +49,35 @@ ul {
     letter-spacing: 0.03em;
     color: var(--second-color);
 }
+
+/* Основная навигация */
+
+.nav-link {    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.contact-link {    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
