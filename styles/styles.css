@@ -137,5 +137,15 @@ ul {
     color: var(--text-color);
 }
 
+/* Чем мы занимаемся */
 
+.whatwedo-head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
 }
