@@ -6,6 +6,7 @@
     --backround-light: #F5F4FA;
     --contact-color: rgba(255, 255, 255, 0.6);
     --accent-color: #2196f3;
+    --button-color: #F5F4FA;
 }
 
 /* main config */
@@ -223,4 +224,25 @@ ul {
 .contact-list-foot:hover,
 .contact-list-foot:focus {
     color: var(--accent-color);
+}
+
+/* Портфолио */
+/* Фильтры */
+
+.port-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background-color: var(--button-color);
+}
+
+.port-button:hover,
+.port-button:focus {
+    background-color: var(--accent-color);
+    color: var(--second-color);
 }
